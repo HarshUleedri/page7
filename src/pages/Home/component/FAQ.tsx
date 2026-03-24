@@ -32,7 +32,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="mx-auto max-w-7xl py-20 flex ">
+    <section className="mx-auto max-w-7xl px-4 lg:px-0 lg:py-20 py-10 flex flex-col lg:flex-row gap-12 lg:gap-0 ">
       <div>
         <div className="flex mb-4  font-mono text-lg font-thin items-center  text-black">
           <svg

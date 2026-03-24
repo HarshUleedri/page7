@@ -1,9 +1,9 @@
 const JoinUs = () => {
   return (
-    <section className=" bg-secondary flex h-140 ">
-      <div className="lg:w-1/2 space-y-4  p-20 ">
+    <section className=" bg-secondary flex flex-col lg:flex-row lg:h-140 ">
+      <div className="lg:w-1/2 space-y-4 px-4  py-10 lg:p-20 ">
         {/* subtitle */}
-        <div className="flex mt-8 font-mono text-lg font-thin items-center  ">
+        <div className="flex lg:mt-8 font-mono text-lg font-thin items-center  ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -37,7 +37,7 @@ const JoinUs = () => {
           backgroundImage:
             'url("https://images.pexels.com/photos/1144687/pexels-photo-1144687.jpeg',
         }}
-        className=" lg:w-1/2 size-full bg-contain"
+        className="  h-96 lg:w-1/2 size-full bg-contain"
       ></div>
     </section>
   );

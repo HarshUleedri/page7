@@ -30,10 +30,10 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-primary overflow-hidden h-screen flex flex-col justify-between">
-      <div className="mx-auto w-full max-w-7xl ">
-        <div className="w-full flex gap-96 pb-30 pt-20 text-accent/70">
-          <Link className="" to={"/"}>
+    <footer className="bg-primary overflow-hidden h-[126] lg:h-screen flex flex-col justify-between">
+      <div className="mx-auto w-full max-w-7xl px-4 ">
+        <div className="w-full flex flex-col lg:flex-row gap-8 lg:gap-96 pb-20 lg:pb-30 pt-20 text-accent/70">
+          <Link className="hidden lg:block" to={"/"}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -73,7 +73,7 @@ const Footer = () => {
             </svg>
           </Link>
           <div className=" space-y-4 lg:space-y-6">
-            <div className="grid grid-cols-3 gap-44 lg:grid-cols-5 ">
+            <div className="grid  grid-cols-3 gap-4 lg:gap-44 lg:grid-cols-5 ">
               {useFullLinks.map((item) => (
                 <Link className="text-lg" key={item.id} to={item.links}>
                   {item.name}
@@ -116,7 +116,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-[30rem] text-center tracking-widest text-accent leading-110 ">
+      <p className="lg:text-[30rem] text-9xl leading-20 text-center tracking-widest text-accent lg:leading-110 ">
         Harsh
       </p>
     </footer>

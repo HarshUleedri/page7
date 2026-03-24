@@ -1,6 +1,6 @@
 const Testimonials = () => {
   return (
-    <section className="bg-primary py-20 ">
+    <section className="bg-primary px-4 lg:px-0 py-10 lg:py-20 ">
       <div className="  mx-auto max-w-7xl">
         <div className="flex mb-4  font-mono text-lg font-thin items-center text-accent ">
           <svg

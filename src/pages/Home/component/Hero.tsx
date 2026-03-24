@@ -11,7 +11,7 @@ const Hero = () => {
       style={{
         backgroundImage: `url(https://images.pexels.com/photos/18766217/pexels-photo-18766217.jpeg)`,
       }}
-      className=" backdrop-blur-lg   bg-center bg-cover h-screen flex justify-between p-20"
+      className=" backdrop-blur-lg  bg-center bg-cover h-screen flex flex-col lg:flex-row space-y-20 lg:space-y-0 lg:justify-between p-4 lg:p-20"
     >
       <div className="lg:w-1/2 space-y-4  ">
         {/* subtitle */}

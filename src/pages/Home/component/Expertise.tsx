@@ -1,7 +1,7 @@
 const Expertise = () => {
   return (
-    <section className="flex mx-auto max-w-7xl w-full my-20 ">
-      <div className="lg:w-1/2 flex flex-col items-start justify-between">
+    <section className="flex flex-col lg:flex-row mx-auto max-w-7xl w-full my-10 gap-14 lg:my-20 px-4 lg:px-4 ">
+      <div className="lg:w-1/2 flex flex-col items-start gap-8 lg:gap-0 justify-between">
         <div className="flex mt-8 font-mono text-lg font-thin items-center  text-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -19,18 +19,18 @@ const Expertise = () => {
           </svg>
           Expertise
         </div>
-        <h3 className="w-3/5 text-3xl">
+        <h3 className="lg:w-3/5 lg:text-3xl">
           Expertise That Drives Your Transformation
         </h3>
       </div>
 
       <div className="lg:w-1/2 space-y-14">
-        <h2 className="text-5xl ">
+        <h2 className="text-3xl lg:text-5xl ">
           We bring together strategic thinking to help business operate smarter
           and grow stronger.
         </h2>
 
-        <div className="flex justify-between ">
+        <div className="flex flex-col lg:flex-row gap-12  lg:gap-0 lg:justify-between ">
           <div className="">
             <div className="bg-black p-2 mb-4 rounded-lg w-fit ">
               <svg
